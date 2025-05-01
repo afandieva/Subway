@@ -23,7 +23,7 @@ private:
     std::map<std::string, Line> lines;
     std::mutex cout_mutex;
 
-    void train(int train_id, const std::string& line_name, int direction);
+    void train(int train_id, const std::string& line_name, int route_type);
     void safe_print(const std::string& message);
 };
 
