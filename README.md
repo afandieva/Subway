@@ -32,10 +32,6 @@
 ```bash
 git clone https://github.com/afandieva/Subway.git
 cd Metro
-cmake -S . -B build
-cd build
-make
-./Metro 
 ```
 #### Статическая сборка:
 
@@ -54,6 +50,9 @@ make
 
 После этого будет создан исполняемый файл в текущей папке.
 
+```bash
+./Metro
+```
 
 #### Динамическая сборка:
 
